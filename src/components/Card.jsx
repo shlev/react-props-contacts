@@ -11,7 +11,7 @@ function Card(props) {
             <Avatar img = {props.imgUrl}/>
         </div>
         <div className="bottom">
-            <Detail detailInfo={props.phone} />
+            <Detail detailInfo={props.tel} />
             <Detail detailInfo={props.email} />
         </div>
       </div>
